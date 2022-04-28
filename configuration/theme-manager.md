@@ -3,22 +3,22 @@
     <a href="../../img/blob-theme-manager.jpg" title="Theme Manager"><img src="../../img/blob-theme-manager.jpg" alt="" /></a>
 </div>
 
-**BLOB Theme manager** is great utility made by BunsenLabs, and adapted for Mabox Linux.
-It allows you to easily **save** and **restore** your desktop configuration including:
+**El gestor de Temas BLOB** es una utilidad genial creada por BunsenLabs, y adaptada para Mabox Linux.
+Te permite fácilmente **guardar** y **restaurar** tu configuracion personal al tema incluyendo:
 
-- GTK theme
-- Openbox theme
-- Icon theme
-- desktop background
-- Conky session
-- Tint2 panel(s)
-- Menu/Sidepanels theme
+- Temas de  GTK 
+- Temas de Openbox 
+- Iconos de temas
+- Imagen de fondo del escritorio
+- Sesiones con recuadros Conky o sin ningun recuadro
+- Panel(es) de Tint2 usados
+- Temas de Menu principal/Paneles menu laterales
 
 
 
-To try it go to: **Main menu** ++super++ -> **Mabox Config** -> **Theme Manager**
+Para probarlo vaya a : **Menu principal** o bien con tecla ++super++ -> **Ajustes de Mabox** -> **Gestor de Temas**
 
-There are some predefined **desktop themes** available by default in Mabox.
+Ya existen algunos **temas de escritorio** predefinidos disponibles por defecto en Mabox.
 
 <div class="gal">
     <a href="../../img/Mabox-superdesk.jpg" title="Mabox Superdesk - default Mabox theme"><img src="../../img/Mabox-superdesk.jpg" alt="" /></a>

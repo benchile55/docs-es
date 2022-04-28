@@ -1,1 +1,1 @@
-Command Palette ++super+f1++ is a tool which present all important actions and keybindings in one place.
+Paleta con comandos   ++super+f1++ es otra utilidad la cual le muestra todas las acciones y atajos de teclado importantes en un sólo lugar.

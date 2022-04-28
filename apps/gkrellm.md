@@ -2,25 +2,25 @@
     <a href="../../img/gkrellm.jpg" title="GKrellM"><img src="../../img/gkrellm.jpg" alt="" /></a>
 </div>
 
-**GKrellM** (GNU Krell Monitors) is a somewhat forgotten program with very interesting features. 
+**GKrellM** (GNU Krell Monitors) ies de algun modo un programa de monitoreo de sistema olvidado pero con cualidades interesantes. 
 
 GKrellM monitors system operating parameters such as:
 
-- CPU utilization 
-- running processes 
-- memory usage 
-- write and read from disks 
-- incoming and outgoing transfer with statistics counting (for a day, week and month) 
-- battery status 
-- incoming mail monitoring
+- Uso de la CPU  
+- Procesos en ejecución 
+- Uso de las memorias 
+- Discos escritos y de lectura 
+- Entrada y salida con registros estadísticos (del día, la semana o el mes) 
+- Estado de la batería 
+- Monitorea entradas de correos
 
-Each sensor monitor has a configurable alarm and warning.
+Cada sensor de monitoreo posee una alarma y una notificacion de precaución.
 
-GKrellM can run in client mode and collect data from a gkrellmd server running on a remote machine.
+GKrellM puede ejecutarse en modo cliente y recoger informacion desde un servidor con el mismo  gkrellmd server por acceso remoto.
 
-We can attach our own command to each of the monitors, or rather its label - which allows to significantly expand the functionality of GKrellM. For example, under the CPU we can attach the command to run `top` or `bpytop` in the terminal. 
+Podemos agregar nuestras comandos a cada uno de los monitores, bien a sus etiquetas - lo que permite expandir la funcionalidad de GKrellM. Por ejemplo, debajo de la CPU podemos agregar un comando para ejecutar  `top` o bien  `bpytop` desde la terminal. 
 
-The functionality of the program can also be extended by installing plugins - their list is really extensive - just search for gkrellm in the package manager. Temperature monitoring,  P2P network monitoring, weather information or music player control are just a few examples.
+La funcionalidad del programa se puede también extender con la instalación de extensiones o  plugins - su lista es muy extensa - sólo busque en el paquete gestor de gkrellm . Monitorea temperatura, redes  P2P , reporte meteorológico o reproductor de música son algunos ejemplos.
 
 ```
 yay gkrellm
@@ -40,19 +40,19 @@ yay gkrellm
 
 
 !!! info "GKrellM in Mabox Linux"
-    Mabox comes with GKrellM preinstalled. It is disabled by default, but you can enable it by:
+    Mabox trae preinstalado GKrellM. Esta desactivado por defecto,  pero puede activarlo por medio de :
     
-    **Settings menu** ++super+s++ -> **Autostart** -> **Choose apps/services (GUI editor)**
+    **Ajustes** o bien  ++super+s++ -> **Autoinicio** -> **Elegir las apps/servicios en el editor GUI **
     
-    There are two options:
+    existen dos opciones:
     
     - **GKrellM** 
 
-    - **GKrellm in dock** 
+    - **GKrellm en la barra** 
 
-    If you decide to run **GKrellm in dock** - use ++super+alt+d++ to show/hide dock. You can also hover your filesystem over right screen edge.
+    Si decide ejecutar **GKrellm en la barra** - use ++super+alt+d++ para mostrar/esconder la barra. También puede mover el raton hacia el borde derecho de la pantalla y aparecerá.
 
-GKrellM comes with a few themes, many more can be installed with **gkrellm-themes** package:
+GKrellM viene con unos pocos temas, muchos más se pueden instalar con el paquete extra  **gkrellm-themes** :
 ```
 yay -S gkrellm-themes
 ```

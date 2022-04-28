@@ -1,6 +1,6 @@
 # Gestor de software (programas y paquetes)
 
-**Mabox Linux** es una distribución  **Manjaro** *basada*, y usa los repositorios oficiales de Manjaro Linux (*de la rama estable*) y algunos paquetes propios del repositorio de Mabox.
+**Mabox Linux** es una distribución *basada* en **Manjaro** , y usa los repositorios oficiales de Manjaro Linux (*de la rama estable*) y algunos paquetes propios del repositorio de Mabox.
 
 Mabox Linux, al igual que Manjaro es una distribucion de tipo *rolling-release*, y esto quiere decir que usted tendrá acceso directo a las versiones de programas más actualizados.
 
@@ -55,31 +55,31 @@ Si usted anota  `yay -Syu`  como es habitual de hacer operará  del mismo modo. 
 
 ### Instalando paquetes
 
-As an argument we pass the name of the package we want to install. Here, for example, the gdu – pretty fast disk usage analyzer written in Go.
+Como un argumento ponemos el nombre del paquete que queremos instalar. Aquí, por ejemplo, es  gdu – una analizador de discos veloz escrito en  Go.
 ```bash
-# search for gdu package
+# búsqueda del paquete gdu 
 yay gdu
-# Yay will search for available packages – both in the repositories and in AUR
-# – it will list them and let us choose a package to install.
+# Yay buscará entre los paquetes disponibles – tanto en los repositorios oficiales de la comunidad de Manjaro y tambien en los repos AUR
+# – Dará una lista de ellos y le permitirá escoger las versiones del paquete a instalar.
 
-# install gdu immadietely
+# instalará gdu inmediatamente
 yay -S gdu
 
-# install multiple packages
+# instalará varios paquetes simultaneamente
 yay -S gimp blender inkscape
 ```
-### Removing packages
-To remove a package as with yay, use the -R option. For example:
+### Quitar paquetes o programas
+Para quitar o desinstalar un paquete con  yay, use la opción -R . Por ejemplo:
 ```
 yay -R gdu
 ```
 
-### Yay statistics
-You can also use yay to show some interesting statistics about installed packages.
+### Yay y datos estadísticos
+Tambien usted puede usar  yay para mostrar datos estadísticos interesantes acerca de los paquetes instalados.
 ```
 yay -Ps
 ```
-For more info about yay usage:
+Para mayor información acerca del uso de  yay escriba:
 ```
 man yay
 ```

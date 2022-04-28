@@ -4,20 +4,20 @@
 </div>
 
 
-The **Mabox Control Center** `mcc` is a program that brings together in one place all available tools for configuring both the appearance and behavior of Mabox.
+ **Mabox Centro de Control** `mcc` es un programa que incoprora una totalidad de ajustes de la apariencia visual y del comportamiento de Mabox en un sólo lugar.
 
 
-In the Control Center you have access to the configuration of the following components:
+En este Centro de Control tiene acceso a la configuración de los siguientes componentes:
 
-- System and hardware
-- Software
-- Autostart
-- Look and Feel
-- Tint2 panel
-- Conky
-- Menu and Sidepanels
-- Composer
-- Mabox Themes
+- Sistema y componentes de  hardware
+- Programas de Software
+- Autoinicio
+- Apariencia visual
+- Panel y paneles de Tint2
+- Tableros de Conky
+- Menu y paneles laterales
+- Compositor gráfico
+- Temas de Mabox 
 
 <div class="gal4">
     <a href="../../img/mcc-software.png" title="Mabox Control Center - Software"><img src="../../img/mcc-software.png" alt="" /></a>

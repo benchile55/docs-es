@@ -26,11 +26,11 @@ El Menu permite la búsqueda de programas, con solo escribir la palabra de la ap
 
 ---
 ## Conky
-Existen dos tableros de Conky ubicados por defecto en el escritorio inicial deMabox. **Monitoreo e información del sistema** en la parte superior de la esquina derecha y otro Conky en la parte inferior izquierda presentando **la mayoría de los atajos de teclado**.
+Existen dos recuadros de Conky ubicados por defecto en el escritorio inicial deMabox. **Monitoreo e información del sistema** en la parte superior de la esquina derecha y otro recuadro Conky en la parte inferior izquierda presentando **la mayoría de los atajos de teclado**.
 
-Usted puede activar/desactivar estos tablero Conky con el atajo de teclas ++super+alt+c++.
+Usted puede activar/desactivar estos recuadros Conky con el atajo de teclas ++super+alt+c++.
 
-Lea más acerca de los tableros informativos Conky [Conky configuration in Mabox](../../configuration/conky/)
+Lea más acerca de los recuadros informativos Conky [Conky configuration in Mabox](../../configuration/conky/)
 
 ---
 ## Panel de Tint2 
@@ -74,7 +74,7 @@ Luego sigue **Lanzadores** con 5 íconos por defecto:
 - Cliente de Irc Hexchat
 
 
-!!! hint "Como agregar/quitar lanzadores al  panel?"
+!!! hint "¿Cómo agregar/quitar lanzadores al  panel?"
     Dirigirse a **Menu de ajustes** ++super+s++ -> **Paneles Tint2 ** -> **Agregar/Quitar Lanzadores**
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CqxQfLXRoWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -148,9 +148,9 @@ Algunas herramientas de Mabox disponibles en el Panel lateral izquierdo:
   - **Fondos de escritorio y bloqueo de pantalla** ++super+alt+w++ - configura el fondo de escritorio y el bloqueo de pantalla
   - **Rejilla de escritorio** - administra sus ventanas en una rejilla con o sin espacios
   - **Gestor de escritorio** – guarda o restaura sesiones de trabajo con el escritorio  (guarda todas ventanas de trabajo en la sesion actual con su tamaño y ubicación, y mas tarde la restaura en una nueva  sesión en cualquier espacio de trabajo)
-  - **SSH Conexiones** – lista todas las conexiones de SSH, desde `~/.ssh/config`
+  - **Conexiones SSH** – lista todas las conexiones de SSH, desde `~/.ssh/config`
   - **Menu de ajustes panel Tint2 **
-  - **Menu de ajusted de los Conky**
+  - **Menu de ajustes de los Conky**
 
 **Panel lateral derecho** ++ctrl+super+right++ es un acceso rápido a varios ajustes más y entrega vínculos de ayuda online.
 

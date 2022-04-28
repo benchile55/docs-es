@@ -3,17 +3,17 @@
 </div>
 
 
-**Lxappearance** is used to configure:
+**Apariencia** se usa para configurar:
 
-- GTK theme
+- El tema GTK 
 
-- Window Border (Openbox theme)
+- El borde de la ventana  del  (Tema de Openbox)
 
-- Icon theme
+- Íconos 
 
-- Font
+- Fuentes
 
-- Mouse cursor
+- Cursores
 
-**Main Menu** ++super++ -> **Mabox Config** -> **Look and Feel**
+**Menu principal ** o bien con la tecla ++super++ -> **Ajustes de Mabox** -> **Apariencia**
 

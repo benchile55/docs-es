@@ -2,13 +2,13 @@
 hide:
   - navigation
 ---
-# Bienvenido al manual de Mabox!
+# ¡Bienvenido al manual de Mabox!
 Bienvenido al Manual en español! Es un texto de apoyo para usar Mabox. Este manual cubre varios partes, tales como instalación, aplicaciones aportadas de Mabox, y mucho más!
 
 
-## Que es Mabox?
+## ¿Qué es Mabox?
 
-Las metas del projecto son:
+Las metas del proyecto son:
 
 - entregar un sistema Linux **ligero, veloz** y **listo para usar**, el cual opere lo más  óptimo aún en aquellos sistemas débiles en recursos.
 
@@ -32,11 +32,11 @@ Mabox es una distribución  de tipo *rolling-release* basada en  **Manjaro Linux
 
 
 
-## Qué entorno de escritorio usa Mabox?
+## ¿Qué entorno de escritorio usa Mabox?
 Ninguno. Mabox no tiene un entorno de escritorio definido e integrado como los tradicionales (Gnome, KDE, LXDE, XFCE,Mate, Budgie...).
 Mabox ha sido construido encima del gestor de ventanas clásico OpenBox con componentes ligeros altamente configurables y cuidadosamente seleccionados. Y además con herramientas  domésticas propias que permiten mostrarlo como un escritorio moderno y aerodinámico.
 
-- tint2[^1] ies el panel usado.
+- tint2[^1] es el panel usado.
 
 - menus y paneles laterales basados en  jgmenu[^2].
 
@@ -57,16 +57,16 @@ Mabox ha sido construido encima del gestor de ventanas clásico OpenBox con comp
     <a href="img/Quakeworld.jpg" title="Quakeworld theme"><img src="img/Quakeworld.jpg" alt="" /></a>
 </div>
 
-## Es Mabox estable para el uso diario?
+## ¿Es Mabox estable para el uso diario?
 
 Respuesta corta: **sí**
 
 
-Como es logrado esto?
+¿Cómo es logrado esto?
 
 
 - Mabox esta basado en la rama de **Manjaro estable**.
-??? info "Cómo operan las ramas en Manjaro?"
+??? info "¿Cómo operan las ramas en Manjaro?"
     Origen [Manjaro wiki](https://wiki.manjaro.org/index.php/Switching_Branches#Overview):
 
     >Los paquetes de Manjaro inician sus vidas en la rama *inestable*. Una vez que se les considera que estan estables, son trasladados a la *rama de prueba*, en donde se le realizan mas pruebas con el fín de poder ser enviados a la rama *estable*.
@@ -81,7 +81,7 @@ Como es logrado esto?
 Tiene preguntas? Quiere involucrarse? Visitenos entonces [sitio web oficial](https://maboxlinux.org), [blog](https://blog.maboxlinux.org), [foro de discusión de Mabox](https://forum.maboxlinux.org).
 
 
-## Gracias totales!
+## Gracias totales
 Le agradecemos su preferencia al usar Mabox Linux!
 
 *[DE]: Entorno de escritorio gráfico

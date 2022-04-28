@@ -4,49 +4,49 @@
 </div>
 
 
-## Overview
+## Detalles generales
 
-**Terminator** ++super+t++ is default terminal emulator in Mabox.
+**Terminator** ++super+t++ es el emulador de Terminal por defecto en Mabox.
 
-Terminator is an advanced terminal emulator, which is a great proposition for people who often work in many terminals.
+Terminator es un emulador de terminal avanzado, el cual  parece ser una propuesta grandiosa para los usuarios que usan muchos terminales al mismo tiempo.
 
-Some of Terminator features:
+Algunas de las cualidades de Terminator son:
 
-- split terminals and arrange terminals on the grid
-- tabs
-- change of terminal arrangement (drag and drop and shortcuts)
-- many keyboard shortcuts
-- saving multiple layouts and profiles using the GUI preferences editor
-- simultaneous writing to any terminal groups (broadcasting)
-
-
-## Keyboard shortcuts
-++shift+ctrl+o++ – split horizontally (this is o like horizontally, not zero)
-
-++shift+ctrl+e++ – split vertically
-
-++alt+"Arrows"++ – move directly between terminals, similarly ++ctrl+shift+tab++ and ++ctrl+shift+n++ or ++ctrl+shift+p++
-
-++ctrl+shift+x++ – zoom active terminal (toggle)
-
-++super+shift+r++ – change the mutual position of the panels (terminals)  counterclockwise
-
-++ctrl+shift+w++ – close terminal
-
-++ctrl+plus++ – increase font size (also ctrl + mouse wheel)
-
-++ctrl+minus++ – decrease font size (also ctrl + mouse wheel)
-
-++ctrl+0++ – restore original font size
+- dividir y reacomodar terminales en la rejila visual
+- pestañas
+- cambiar el aspecto de la terminal (arrastar y dejar caer  y ademas atajos de teclado propios)
+- muchos atajos de teclado
+- guardar perfiles y aspecto visual de acuerdo a las preferencia del usuario
+- escribir simultaneamente en cualquier terminal a cualquier otro grupo de terminal (trasmisión)
 
 
-## Quake-like terminal
-Mabox provides a little wrapper around terminator, which works like drop-down quake-like terminal.
+## Atajos de teclado
+++shift+ctrl+o++ – divide horizontalmente una terminal  (this is o like horizontally, not zero)
 
-Keybind to start it is ++ctrl+grave++ (tilde).
+++shift+ctrl+e++ – divide verticalmente una terminal 
 
-Subsequent use of ++ctrl+grave++ will hide or show **Quake terminal**.
-To quit use ++alt+f4++ or just logout from shell by ++ctrl+d++ or:
+++alt+"Arrows"++ – se mueve de una terinal a otra con las teclas de flechas, al igual que  con  ++ctrl+shift+tab++ y con  ++ctrl+shift+n++ o bien  ++ctrl+shift+p++
+
+++ctrl+shift+x++ – activa el aumento o zoom del terminal  (toggle)
+
+++super+shift+r++ – intercambia la ubicacion de dos terminales hacias el sentido del reloj
+
+++ctrl+shift+w++ – cierra la  terminal
+
+++ctrl+plus++ – aumenta el tamaño de la fuente (también con  ctrl + la rueda del ratón)
+
+++ctrl+minus++ – disminuye el tamaño de la fuente (también con  ctrl + rueda del ratón)
+
+++ctrl+0++ – restaura el tamaño original de la fuente
+
+
+## Quake-la terminal desplegable 
+Mabox ofrece una extensión de la terminal  terminator, el cual opera como una terminal desplegable en la pantalla.
+
+El atajo de teclado para iniciarlo es ++ctrl+grave++ (tilde).
+
+La insisitencia de la primera combinación de teclas hace un uso irregular para esconder o bien mostrar de nuevo la terminal desplegable opere este atajo nuevo ++ctrl+grave++ esconderá o mostrará el  **Quake terminal**.
+Para salir de esta terminal desplegable use  ++alt+f4++  o bien salir de esta con  ++ctrl+d++ o anote  esto y presiones tecla enter desde Quake terminal:
 ```
 exit
 ```
@@ -56,35 +56,35 @@ exit
 </div>
 
 
-By default **Quake terminal** appears on top and its size is 75% width and 50% height, but you can change and save its size and position.
+Por defecto esta **Quake terminal desplegable** aparece en la parte superior y su tamaño es de 75% de ancho y  50% de alto, usted puede cambiar estos parametros y guardar sus preferencias de tamaño y posición.
 
-Resize window: ++alt+r++ then resize by mouse.
+Cambiar el tamaño de la ventana con: ++alt+r++ y entonces ajustar el tamaño con el ratón.
 
-Move to your preferred place: ++alt+m++ then move by mouse.
+Desplazarlo a su lugar preferido con : ++alt+m++ y entonces arrastrelo con el ratón.
 
-Save new position and size by command:
+Guarde la nueva posición y el tamaño preferido con la comando en la terminal :
 ```
 mabox-terminal save
 ```
-Next time you start quake-like terminal it will preserve new size and position.
-You can reset settings to default by command:
+La próxima vez que  inicie Quake terminal se mantendrá con el tamaño y posición ya guardada.
+Si desea recuperar los parametros automaticos predefinidos lo puede hacer con la esta comando en la terminal:
 ```
 mabox-terminal reset
 ```
-See video: <a class="videolink" href="https://www.youtube.com/watch?v=tpwxkc5neZo">yt</a>
+Vea este video: <a class="videolink" href="https://www.youtube.com/watch?v=tpwxkc5neZo">yt</a>
 
-## Terminal themes
-Terminal colors can be set thanks to themes.sh script.
-It comes with 270+ preloaded themes.
+## Temas de la Terminal 
+Los colores de la terminal se pueden ajustar gracias al programa script themes.sh script.
+Viene con 270 temas precargados.
 
 ```bash
-# List available themes
+# Lista temas disponibles
 themes.sh -l
 
-# Set new theme
+# Establece el nuevo tema
 themes.sh nord
 
-# Select theme interactively
+# Seleccion interactiva de un tema
 th
 
 ```

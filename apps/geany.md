@@ -1,19 +1,19 @@
-**Geany** ++super+e++ is a small and lightweight Integrated Development Environment. It was developed to provide a small and fast IDE, which has only a few dependencies from other packages.
+**Geany** ++super+e++ es un  editor con ambiente de desarrollador integrado, pequeño y ligero. Fue desarrollado para entregar una IDE pequeña y veloz, el cual tiene pocas dependencias de otros paquetes.
 
-Another goal was to be as independent as possible from a special Desktop Environment like KDE or GNOME - Geany only requires the GTK2 runtime libraries.
+Otro objetivo fue hacerlo independiente en la medida de lo posible de otros entornos de desarrollo como KDE o GNOME - Geany solamente necesita biblioetcas de ejecución en GTK2.
 
 
-**Features**
+**Caracterísiticas**
 
-- Syntax highlighting
-- Code folding
-- Symbol name auto-completion
-- Construct completion/snippets
-- Auto-closing of XML and HTML tags
-- Call tips
-- Many supported filetypes including C, Java, PHP, HTML, Python, Perl, Pascal (full list)
-- Symbol lists
-- Code navigation
-- Build system to compile and execute your code
-- Simple project management
-- Plugin interface
+- Sintaxis destacada (highlighting)
+- Código de directorio
+- Auto completación de símbolos de programación
+- Constructor  de  completación/snippets
+- Cierre automático de pestañas de XML y  HTML 
+- Aviso de consejos
+- Variados tipos de archivos soportados como C, Java, PHP, HTML, Python, Perl, Pascal (full list)
+- Listas de símbolos
+- Código de  navegación
+- Construye sistema para compilar y ejecutar código
+- Gestor sencillo de proyectos
+- Intefaz de extensiones

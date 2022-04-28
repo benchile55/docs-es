@@ -1,46 +1,46 @@
 
-**Espanso** is a cross-platform text expander written in Rust.
+**Espanso** es una plataforma extensiva de texto escrita en Rust.
 
-Espanso detects when you type a keyword and replaces it while you're typing.
+Espanso detecta cuando uno escribe una palabra clave y la reemplza mientras esta escribiendo.
 
-_See it in action..._
+_Véalo en acción..._
 ![Espanso - text expander](../img/espanso.gif)
 
-This is useful in many ways:
+Esto es útil en muchas formas:
 
-- Save a lot of typing, expanding common sentences.
+- Ahorra un montón de escritura, expandiendo frases comúnes.
 
-- Create system-wide code snippets.
+- Crea un sistema amplio de codigos rápidos (code snippets).
 
-- Execute custom scripts
+- Ejecuta scripts personalizados
 
-**Key Features**
+**Caracteríticas claves**
 
-- Works with almost any program
+- Funciona en la mayoría de los programas
 
-- Works with Images
+- Funciona con imágenes
 
-- Date expansion support
+- Soporta expansiónes de fechas
 
-- Custom scripts support
+- Soporta scripts personalizados
 
-- Shell commands support
+- Soporta comandos de terminales
 
-- App-specific configurations
+- Ajustes de aplicaciones  específicas
 
-- Support [Forms](https://espanso.org/docs/forms/)
+- Soporta formularios [Forms](https://espanso.org/docs/forms/)
 
-- Expandable with packages
+- Paquetes de extensiones 
 
-- Built-in package manager for [espanso hub](https://hub.espanso.org/)
+- Gestor incoroporado para  [espanso hub](https://hub.espanso.org/)
 
-- File based configuration
+- Ajustes basados en archivos
 
 
 
-## How to run espanso in Mabox?
+##¿Cómo ejecutar espanso en Mabox?
 
-Espanso is preinstalled in Mabox, all you need to do is register user systemd service for it. This is needed to automatically start espanso at system startup.
+Espanso esta  preinstalado en Mabox, todo lo que necesita hacer es registrarse como ususario en los servicios de systemd  para usarlo. Esto es requerido para emplear espanso automaticamente en el incicio de sesión.
 
 ```
 espanso start
@@ -48,10 +48,10 @@ espanso start
 
 
 
-## Mabox espanso helper
-Espanso is great piece of software, but currently it lacks GUI - for example to remind you all defined triggers.
+## Asistente espanso de Mabox
+Espanso  es sensacional como software, pero carece de aspecto visual GUI - por ejemplo para recordarnos todos registros ya definidos antes.
 
-This is why Mabox provide a simple GUI for that - use ++super+alt+e++ to invoke simple espanso helper :)
+Por esta razón Mabox ofrece una versión visual GUI para esto - use ++super+alt+e++ para llamar el asistente visual de espanso :)
 
 <div class="gal1">
     <a href="../../img/espanso_helper.jpg" title="Mabox Espanso helper"><img src="../../img/espanso_helper.jpg" alt="" /></a>
@@ -59,8 +59,8 @@ This is why Mabox provide a simple GUI for that - use ++super+alt+e++ to invoke 
 
 
 
-You will see menu showing all defined triggers and sentences/snippets (type to search also works here). Menu gives you also easy acces to espanso config directory, editing default config file and link to [Espanso documentation](https://espanso.org/docs/).
+Verá un menu mostrándole todos los registros previos ya definidos en frases, claves  (anote para ubicarlos eso tambien funciona aquí). El menu le ofrece fácil acceso al directorio de configuración de espanso, editando el archivo de config por defecto y con un vínculo a una guía de  [Espanso documentation](https://espanso.org/docs/).
 
-!!! info "Next Espanso version is currently in development"
-    Development of next - significantly improved version of Espanso is already at an advanced stage.
-    Therefore, soon the Mabox helper will be able to retire :)
+!!! info "Viene una version de Espanso en desarrollo"
+    Desarrollo de la nueva versión - significativamente mejorada y ya esta en una etapa más avanzada.
+    Por lo tanto , pronto, sera el nuevo asistente de Mabox helper y será posible que me jubile  :)

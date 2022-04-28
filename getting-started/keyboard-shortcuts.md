@@ -1,99 +1,99 @@
 
-Openbox is a window manager that you can use the way you like – with a mouse, keyboard or both.
+Openbox es un gestor de ventanas que puede ocupar de la forma que se desea –con un ratón o panel táctil, con el teclado o ambos.
 
-In Mabox, useful keyboard shortcuts have been configured, which allow you to work effectively without taking your hand off the keyboard.
+En Mabox, se han configurado atajos de teclado por defecto, los cuales le permiten operar eficientemente el sistema sin necesidad de sacar sus manos del teclado.
 
 
-##Windows – pseudo tiling, resize, move etc.
+##Windows - tiling parcial , ajustes, desplazamiento, etc.
 
-| Keys| Action|
+| Teclas| Acciones|
 | ------------- | ------------------- |
-|++super+up++| Halfscreen Top|
-|++super+down++| Halfscreen Bottom|
-|++super+left++| Halfscreen Left|
-|++super+right++| Halfscreen Right|
-|++super+home++, ++alt+f6++| Maximize|
-|++f11++ , ++super+enter++| toggle fullscreen|
+|++super+up++| Partir en la mitad superior|
+|++super+down++| Partir en la mitad inferior|
+|++super+left++| Partir en la mitad al lado izquierdo|
+|++super+right++| Partir en la mitad  al lado derecho|
+|++super+home++, ++alt+f6++| Maximizar|
+|++f11++ , ++super+enter++| activar la pantalla completa|
 
 
 
-##Keybindings for desktop switching
+##Atajo de teclado para cambiar de escritorio o espacio de trabajo
 
-|Action|Keys|
+|Acciones|Teclas|
 | --- | --- |
-|GoToLeftDesktop|               ++ctrl+alt+left++|
-|GoToRightDesktop          |    ++ctrl+alt+right++|
-|SendToDesktopToLeft       |    ++shift+alt+left++|
-|SendToDesktopToRight      |    ++shift+alt+right++|
-|GoTo first Desktop        |    ++super+1++|
-|GoTo second Desktop       |    ++super+2++|
-|GoTo third Desktop        |    ++super+3++|
-|GoTo fourth Desktop       |    ++super+4++|
-|Send to Desktop No        |    ++super+1++ , ++2++, ++3++ or ++4++|
-|ToggleShowDesktop         |    ++super+d++|
+|Llevarlo al escritorio de la izquierda|               ++ctrl+alt+left++|
+|Llevarlo al escritorio de la derecha          |    ++ctrl+alt+right++|
+|Enviar al escritorio de la izquierda       |    ++shift+alt+left++|
+|Enviar al escritorio de la derecha      |    ++shift+alt+right++|
+|Dirigirse al primer escritorio        |    ++super+1++|
+|Dirigirse al segundo escritorio       |    ++super+2++|
+|Dirigirse al tercer escritorio        |    ++super+3++|
+|Dirigirse al cuarto escritorio       |    ++super+4++|
+|Enviar al escritorio número 1,2,3        |    ++super+1++ , ++2++, ++3++ or ++4++|
+|Activar el mostrar el escritorio         |    ++super+d++|
 
-!!! note "Add/remove desktops"
-    There are only two virtual desktops by default in Mabox.
-    You can add more or remove desktops by: *middle click on desktop* -> *Manage desktops*
+!!! note "Agregar/Quitar escritorios"
+    Por defecto existen solo dos escritorios o espacios de trabajo (1 y 2) en Mabox.
+    Ud. puede agregar o quitar  escritorios o espacios de trabajo por medio de : *dar clic central al raton o pantalla táctil y  aparecera menu de escritorios* -> *Manage desktops*
 
-##Keybindings for windows
+##Atajos para ventanas
 
 
-|Action|Keys|
+|Acciones|Teclas|
 | --- | --- |
-|Close       |                  ++alt+f4++|
-|Lower (minimise)       |       ++alt+escape++|
-|ShowMenu               |       ++alt+space++|
+|Cerrar       |                  ++alt+f4++|
+|Minimizar o reducir       |       ++alt+escape++|
+|Mostrar el menu               |       ++alt+space++|
 
 
 
-##Keybindings for window switching
+##Atajos para cambio de ventanas
 
 
-|Action|Keys|
+|Acciones|Teclas|
 | --- | --- |
-|NextWindow             |       ++alt+tab++|
-|PreviousWindow         |      ++alt+shift+tab++|
+|Siguiente ventana             |       ++alt+tab++|
+|Ventana anterior        |      ++alt+shift+tab++|
 
 
 
-##Menus and SidePanels
+##Menus y paneles laterales
 
-|Key|Action|Key|Action|
+|Teclas|Acciones|Teclas|Acciones|
 |-:|-|-:|-|
-|++super++ or ++super+space++|Main Menu|++super+s++|Settings Menu|
-|++ctrl+super+left++|Left Sidepanel|++ctrl+super+right++|Right Sidepanel|
-|++super+m++|Rofi Menu|||		
+|++super++ o ++super+space++|Menu principal|++super+s++|Menu de ajustes|
+|++ctrl+super+left++|Panel lateral izquierdo|++ctrl+super+right++|Panel lateral derecho|
+|++super+m++|Menu de Rofi|||		
 
-##Applications
+##Atajos para Aplicaciones
 
-|Key|Action|Key|Action|
+|Teclas|Acciones|Teclas|Acciones|
 |-:|-|-:|-|
-|++super+t++|Terminal|++super+f++|Filemanager PCmanFM|
-|++ctrl+grave++|Quake Terminal|++super+g++|Galculator|
-|++super+w++|Web Browser|++super+e++|Editor Geany|
-|++super+v++|Volume control Pavucontrol|++super+p++|Enable/disable Picom|
-|++super+r++|PyRadio|++super+alt+c++|Enable/Disable Conky|
-|++super+l++|Lock screen|++super+k++|xkill|
-|++super+slash++|Fsearch|++super+x++|Exit/Logout screen|
+|++super+t++|Terminal|++super+f++|Gestor de archivos - PCmanFM|
+|++ctrl+grave++|Terminal desplegable Quake|++super+g++|Galculator calculadora|
+|++super+w++|Navegador web|++super+e++|Abir el editor  Geany|
+|++super+v++|Control de volumen Pavucontrol|++super+p++|Activar/desactivar compositor Picom|
+|++super+r++|Radios online - PyRadio|++super+alt+c++|Activar/Desactivar Conky|
+|++super+l++|Bloqueo de pantalla|++super+k++|Cierre forzado de cualquier aplicacion |
+|++super+slash++|Buscador de archivos|++super+x++|ventana de Salir/Cierre de sesión/Reinicio|
 
-##Helpers
-|Key|Action|
+##Asistentes
+|Teclas|Acciones|
 |-:|-|
-|++super+alt+k++|Conky config menu|
-|++super+alt+p++|Tint2 panel config menu|
-|++super+alt+m++|Menu/Sidepanels config menu|
-|++super+alt+w++|Wallpaper config menu|
-|++super+alt+l++|ScreenLocker config menu|
-|++super+alt+e++|Espanso - text expander helper|
-|++super+f1++|Command Palette|
-|++super+c++|Color Picker/manager|
+|++super+alt+k++|Menu de ajuste de Conky|
+|++super+alt+p++|Menu de ajustes de panel Tint2|
+|++super+alt+m++|Menu de ajustes de Menu principal/Paneles laterales  de Jgmenu|
+|++super+alt+w++|Menu de ajustes de Fondos de pantalla|
+|++super+alt+l++|Menu de ajuste de bloqueo de pantalla|
+|++super+alt+e++|Asistente de expansion de texto - Espanso|
+|++super+f1++|Paleta con comandos importantes en pantalla|
+|++super+c++|Gestor de selector de colores|
 
-##System
+##Sistema
 
-|Key|Action|Key|Action|
+|Teclas|Acciones|Teclas|Acciones|
 |-:|-|-:|-|
-|++"XF86AudioRaiseVolume"++|Increase Volume|++"XF86AudioLowerVolume"++|Decrease Volume|
-|++"XF86MonBrightnessUp"++|Increase Brightness|++"XF86MonBrightnessDown"++|Decrease Brightness|
-|++print++|Take a screenshot|++alt+print++|Take a screenshot|
-|++super+d++|Show Desktop|++super+space++|Root menu|
+|++"XF86AudioRaiseVolume"++|Aumentar el volumen|++"XF86AudioLowerVolume"++|Reducir el volumen|
+|++"XF86MonBrightnessUp"++|Aumentar el brillo|++"XF86MonBrightnessDown"++|Reducir el brillo|
+|++print++|Capturar pantalla|++alt+print++|Capturar pantalla|
+|++super+d++|Mostrar el escritorio|++super+space++|Menu principal|

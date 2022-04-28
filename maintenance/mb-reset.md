@@ -1,39 +1,39 @@
-**mb-reset** is a simple helper script that can be helpful in some uncomfortable situations.
+**mb-reset** es un script asistente que puede ser muy útil en situaciones desafortunadas de sus sistema.
 
-– you made a fatal mistake editing an important configuration file (rc.xml, autostart) and your system is not working as it should
+– usted cometió un error fatal editando la configuracion avanzada de archivo global de autoinicio de Openbox (rc.xml, reinicio) y su sistema dejo de funcionar como antes
 
-– you are using the Mabox version installed long ago and you want to get newer versions of configuration files (for menu/panels, Conky, tint2 etc.)
+– usted ha estado usando el sistema de Mabox por mucho tiempo y desea actualizar a las nuevas actualizaciones de ciertos paquetes de ajustes de archivos que no estan en la rama estable, son paquetes de pruebas (para los for menu/paneles, Conky, tint2 etc.)
 
 
-mb-reset is a very simple script and all it does is copy the default files to the right place in your home directory.
+mb-reset es un script sencillo a usar desde la terminal  y lo único que hace es copiar los archivos originales por defecto de Mabox en el lugar de su directorio de inicio.
 
-Run the script from the user account (not root!). To see all options just type in the terminal:
+Eejecute el programa script desde la terminal de usuario únicamente (no de  root!). Para ver todas las opciones de este programa escriba en una terminal esto:
 ```
 mb-reset
- mb-reset - reset/update user config files to current defaults.
-    It only affects files shipped with Mabox.
-    Be aware that you may loose your own customizations (if any).
+ mb-reset - reestablece/actualiza los archivos de configuracion de Mabox a los originales por defecto.
+    Esto solamente afecta a los archivos personalizados para Mabox por defecto únicamente.
+    Cuidado que al usarlo usted va a perder sus propias personalizaciones de Temas, paneles, barras, conkys (si hizo algunas anteriormente).
 
- Usage: mb-reset option
+ Uso de: opciones de mb-reset 
 
  Options:
-   Compare mode:
-     -c           - compare files using meld GUI (if installed)
-                    It lets you see changes and decide which one to pick or not.
-                    Works with rc.xml,bashrc and autostart files
-                    Usage: mb-reset -c obrcxml | autostart | bashrc
-   Overwrite mode:
-     obrcxml      - rc.xml default OpenBox configuration file
-     obautostart  - default autostart file
-     bashrc       - bash config file (~/.bashrc)
-     terminator   - terminator config
-     conky        - overwrite conky config files in ~/.config/conky/
-     tint2        - overwrite tint2 panel config files in ~/.config/tint2/
-     jgthemes     - overwrite menu/sidepanels color schemes in ~/.config/mabox/jgobthemes/
-     mainmenu     - overwrite main menu files (favorites.csv)
-     leftpanel    - left panel custom commands
-     rightpanel   - right panel custom commands
-     logout       - logout dialog
+   Modo Comparativo:
+     -c           - compara archivos usando meld GUI (si esta instalado)
+                    Permite ver cambios y decidir cual deberia elegir o no.
+                    Funciona con  rc.xml,bashrc y archivos de  autoinicio
+                    Uso de : mb-reset -c obrcxml | autostart | bashrc
+   Modo de sobreescribir :
+     obrcxml      - restaura el archivo global de autinicion de rc.xml  OpenBox 
+     obautostart  - restaura el archivo  de autoinicio
+     bashrc       - restaura el fichero de configuracion de bash  (~/.bashrc)
+     terminator   -restaura el archivo de config del terminal  terminator config
+     conky        - restaura los archivos predefinios de recuadros de connky en  ~/.config/conky/
+     tint2        - restaura los archivos con los paneles predefinidos  tint2 en ~/.config/tint2/
+     jgthemes     - restaura los esquemas de colorees para  menu/paneles laterales en ~/.config/mabox/jgobthemes/
+     mainmenu     - restaura los archivos principales del menu (favorites.csv)
+     leftpanel    - restablece las aplicaciones originales delpanel  lateral izquierdo
+     rightpanel   - restablece las aplicaciones del  panel lateral derecho
+     logout       - restablece la ventana de salida de sistema
 
 
 

@@ -1,10 +1,10 @@
-**fzf** (*fuzzy finder*) is a general-purpose tool that lets you find files, commands in the history, processes, git commits, and more using a fuzzy search.
-Fzf is installed and configured by default in Mabox as well as several other tools utilizing it.
+**fzf** (*fuzzy finder*)  es una herramienta de propósito general que permite la búsqueda de archivos, comandos del historial, de los procesos, de solicitudes de Git y más de las búsquedas con  fuzzy search.
+Fzf  esta instalado y ya configurado por defecto en Mabox al igual que otra utilidades que utiliza este buscador.
 
-The following key bindings are configured:
+Los siguientes atajos estan preconfigurados:
 
-- ++ctrl+t++ - Paste the selected files and directories onto the command-line  (e.g., type `git add` , press ++ctrl+t++, select a few files using ++tab++, finally ++enter++)
-- ++ctrl+r++ - Paste the selected command from history onto the command-line
-- ++alt+c++ - cd into the selected directory
+- ++ctrl+t++ - Pega los archivos y directorios seleccionados en la línea de comando  (e.g., escribe  `git add` , presiona ++ctrl+t++, selecciona otros pocos archivos usando  ++tab++, finalmente ++enter++)
+- ++ctrl+r++ - Pega las comandos del historial en la línea de comando 
+- ++alt+c++ - cambia de directorio hacia el directorio seleccionado
 
 [fzf on Github](https://github.com/junegunn/fzf)

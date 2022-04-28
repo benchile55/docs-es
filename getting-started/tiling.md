@@ -2,29 +2,29 @@
     <a href="../../img/tiling.jpg" title="Windows tiling"><img src="../../img/tiling.jpg" alt="" /></a>
 </div>
 
-Openbox is _floating_ window manager, but in Mabox there are preconfigured some handy actions to manually tile windows if you want.
+Openbox es un clásico gestor de ventanas flotantes, a pesar de esto en Mabox tenemos preconfigurado algunas acciones útiles para que usted lmanualmente use el tile windows  o division de ventanas si lo desea.
 
-You can move windows around quickly by some keyboard shortcuts.
+Puede mover las ventanas a su alrededor de la pantalla fácilmente por medio de algunos atajos de teclado habilitados por defecto.
 
-_Give it a try while reading_
+_Pruebe mientras lee_
 
-## Resize and move windows by keyboard
-!!! danger inline end "See it in action..."
-    See video:<a class="videolink" href="../../img/tiling_super_arrows.mp4">here</a>
+## Ajustar tamaño y mover ventanas con el teclado
+!!! danger inline end "Véalo en acción..."
+    Ver el video:<a class="videolink" href="../../img/tiling_super_arrows.mp4">aquí</a>
 
-_half screen_
+_Partir la pantalla en mitades_
 
-Try: ++super+left++ , ++right++ , ++up++ , ++down++
+Pruebe con : ++super+left++ , ++right++ , ++up++ , ++down++
 
 <video controls width="100%" src="../../img/tiling_super_arrows.mp4" type="video/mp4">
 </video>
 
 ---
-!!! danger inline end "See it in action..."
-    See video:<a class="videolink" href="../../img/tiling_numpad.mp4">here</a>
-_quarter of screen_
+!!! danger inline end "Véalo en acción..."
+    Ver video:<a class="videolink" href="../../img/tiling_numpad.mp4">aquí</a>
+_Partir pantalla en cuartos_
 
-With ++super+"keypad keys"++ you can also resize and move window to corner or edge of desktop
+Con ++super+"keypad keys"++ usted puede además ajustar el tamaño y desplazar la ventana a la esquina o extremo del escritorio
 
 
 ||||
@@ -37,31 +37,31 @@ With ++super+"keypad keys"++ you can also resize and move window to corner or ed
 <video controls width="100%" src="../../img/tiling_numpad.mp4" type="video/mp4">
 </video>
 
-### Other useful window related shortcuts
+### Otros atajos de teclado útiles con las ventanas
 
-++super+enter++ or ++f11++ - fullscreen, hit again to go back
+++super+enter++ or ++f11++ - pantalla completa, dale al mismo atajo de nuevo y vuelve atrás
 
-++super+b++ - toggle window decorations
+++super+b++ - activa las decoraciones de la ventana activa
 
-++alt+f6++ , ++super+home++ - toggle maximize
-
-
-
-## Clik to snap
-Click on the appropriate area of the window to snap it (on the grid) to given direction.
-
-Use ++ctrl+shift++ + click
-
-See areas...
-![Click to snap](../img/clicksnap.png)
+++alt+f6++ , ++super+home++ - activa maximizar la ventana
 
 
-This works with active and inactive windows, therefore it is very quick way to place them as you need.
+
+## Dale clic para posicionar la ventana
+Dale clic al ratón o panel táctil de tu sistema justo encima de una de las áreas de las ventanas para posicionar o ubicarla  en las áreas de la rejiilla de entrenamiento en la direccion que deseas.
+
+Usa la combiación de teclas ++ctrl+shift++ +  y dale clic encima de la área de la rejilla de entrenamiento
+
+Ver áreas...
+![Clic para ubicar](../img/clicksnap.png)
+
+
+Esto  funciona tanto con ventanas activas o inactivas por defecto, por tanto le facilita un modo simple de ubicar las ventanas abiertas en donde usted las necesite en la pantalla.
 
 
 <video controls width="100%" src="../../img/tiling.webm" type="video/mp4">
 </video>
 
-Note there are a gap between windows. A gap is configurable and is a part of [DesktopGrid](../../extras/desktopgrid) Mabox feature.
+Observe que existe un espacio entre las ventanas ubicadas. Este espacio es configurables y es una parte de  [La rejilla del escritorio](../../extras/desktopgrid) una característica de Mabox.
 
-Use ++ctrl+shift+"numpad keys 1 to 9"++ to achieve the same effect without using mouse.
+Use la combinacion de teclas ++ctrl+shift+"y los números del teclado numerico de su PC entre el 1 al 9"++ para lograr este mismo efecto de ubicar ventanas sin usar el ratón.

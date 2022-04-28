@@ -1,26 +1,26 @@
 
 
 
-The [Linux kernel](https://kernel.org) is the absolute foundation of the entire operating system. A well-tested and stable kernel is essential for both server and desktop systems.
+La fundación de  [Linux kernel](https://kernel.org) es la única organización responsable del sistema operativo completo. Una  núcleo de linux or kernel bien probado es esencial para tanto el desempeño de un servidor o de un sistema de escritorio de Linux.
 
-For this reason, Mabox ships with the rock-solid LTS kernel. Depending on which install image you have downloaded, it will be either a 5.4 or 5.10 series. Both will be supported for many years to come - 5.4 until *december 2025*, 5.10 until *december 2026*.
+Debido a esta razón, Mabox trae por defecto un núcleo o kernel de tipo LTS kernel. Dependiendo de cual de las dos imagenes ISO de Mabox que  usted ha descargado, usaría entre ell kernel 5.4 LTS o 5.15LTS. Ambos seran soportados durante muchos años de revisiones en adelante - 5.4 hastal *diciembre de  2025*, 5.15 hasta *diciembre 2027*.
 
 
-## How to install newer release of the kernel?
+## ¿Cómo instalar un núcleo o kernel Linux mas moderno?
 
-One of the best features of **Manjaro**, and often overlooked is the ability to easily install multiple kernel versions.
-Many kernel series are available in Manjaro and we can easily install several of them alongside.
-You can have multiple kernels installed and decide which kernel to run at boot time.
-There is also a very handy GUI to install kernels.
+Una de las mejores caracteríticas de **Manjaro**, y a menudo muy destacada es la capacidad de instalar varios núcleos a sus sistema con facilidad visual.
+Varios tipos de núcleos estan disponibles en Manjaro y así podemos instalar varios acompañando al mismo sistema.
+Usted puede tenerl los núcleos que necesite instalados y decidir con cual de estos kernels inciar su sesion en el sistema.
+Para esto contamos con una utilidad simple y visual para  instalar los núcleos de su preferencia.
 
 <div class="gal1">
     <a href="../../img/msm-kernel.jpg" title="Kernel installation"><img src="../../img/msm-kernel.jpg" alt="" /></a>
 </div>
 
 !!! info "Kernel advice"
-    Always keep the LTS kernel installed, if something goes wrong with the latest one – you can start rock-solid LTS one at boot time.
+    Siempre prefiera los tipos de núcleos  LTS kernel instalados, por si algo sale mal con los demás núcleos que agregó si fue uno mas moderno principalmente – usted puede arrancar con el núcleo mas sólido en el inicio asi  evitar que sus sistema queda botado.
 
 
 
 
-*[LTS]: Long Term Support
+*[LTS]: Long Term Support/ Con soporte de larga duración.

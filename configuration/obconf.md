@@ -1,45 +1,45 @@
-#ObConf - a preferences manager for Openbox
+#ObConf - un gestor clásico de preferencias para Openbox
 
 <div class="gal1">
     <a href="../../img/obconf.jpg" title="ObConf - a preferences manager for Openbox"><img src="../../img/obconf.jpg" alt="" /></a>
 </div>
 
 
-**ObConf**  is  a  preferences manager for Openbox.
+**ObConf**  es el gestor básico de preferencias globales para Openbox.
 
 
-`Theme`
-:   Lets you choose Openbox theme or install a new one from `.obt` archive.
+`Temas `
+:   Permite seleccionar un tema global guardado o cambiarlo por un nuevo tema desde `.obt` archive.
 
-`Appearance`
-:   Let you change buttons order in titlebar, select fonts
+`Apariencia`
+:   Permite cambiar los botones el orden en la barra de título o seleccionar fuentes
 
-`Windows`
-:   Focusing and placing windows settings
+`Ventanas`
+:   Ajustes de centralización y ubicación de las ventanas
 
-`Move & Resize`
-:   Windows behaviour while move/resize
+`Desplazar & Ajustar el tamaño`
+:   EL comportamiento de la ventana mientras de desplazan o se ajustan de tamaño
 
-`Mouse`
-:   Focusing windows on mouse over them, double click titlebar action
+`Ratón`
+:   Centrar la ventana cuando pases el ratón por encima, accionar el  doble clic en la barra de título
 
-`Desktops`
-:   Set number of desktops and names for them
+`Escritorios`
+:   Establecer el número de escritorios o espacios de trabajo en pantalla y asignar nombres para ellos
 
-`Margins`
-:   Desktop margins are reserved areas on the edge of your screen. New windows will not be placed within a margin, and maximized windows will not cover them.
+`Márgenes`
+:   Los márgenes del escrittorio son áreas reservadas en los bordes de la pantalla. Ventanas nuevas no se ubicaran dentro de estos márgenes, y las ventanas maximizadas no cubrirán estas áreas.
 
-`Dock`
-:   The dock is a special container for *dockapps*, or dock applications. It is not visible on screen until a dockapp is run. Dockapps can be used to show things like a clock, or to provide you with a system tray.
+`Barra `
+:  La barra es un contenedor especial para  *dockapps*, o barra de aplicaciones. No esta visible en la pantalla hasta que se ejecute. La barra de aplicaciones se puede usar para mostrar cosas como un reloj , o bien para entregar una bandeja de sistema.
 
-!!! info "GKrellM monitors in the dock"
-    Mabox comes with [GKrellM](../../apps/gkrellm/) preconfigured to run in a dock. It is disabled by default, but you can enable it by:
+!!! info "Monitoreo de sistema con GKrellM en la barra"
+    Mabox viene con [GKrellM](../../apps/gkrellm/) preconfigurado por defecto para que funcione en una barra. Esta desactivado por defectot, pero usted puede activarlo por medio de :
     
-    **Settings menu** ++super+s++ -> **Autostart** -> **Choose apps/services (GUI editor)**
+    **Ajustes**  o bien ++super+s++ -> **Reinicio** -> **Elegir esta utilidad desde el editor visual GUI)**
     
-    Select **GKrellm in dock**.
+    Seleccionar **GKrellm ien la barra**.
 
-    Use ++super+alt+d++ to show/hide dock. You can also hover your mouse over right screen edge.
+    Use ++super+alt+d++ para mostrar o esconder esta barra. Además puede ubicar su ratón encima del borde derecho y GKrellM aparecerá.
 
 <div class="gal4">
     <a href="../../img/obconf-theme.png" title="ObConf - Theme"><img src="../../img/obconf-theme.png" alt="" /></a>

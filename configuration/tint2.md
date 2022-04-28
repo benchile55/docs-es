@@ -7,27 +7,27 @@
 
 ![](../../img/)
 
-## Submenu to configure Tint2 in Mabox
-To configure Tint2 panel go to: 
+## Submenu para configurar el panel Tint2 en Mabox
+Para configurar el panel Tint2 vaya a: 
 
-**Settings menu** ++super+s++ -> **Tint2 panels**
-
-
-## Choosing an alternate configuration
-
-Tint2 panel theme can be changed with the **Tint2 Chooser**[^1] script:
+**Menu de Ajustes** o bien con las teclas  ++super+s++ -> **PanelesTint2**
 
 
-**Settings menu** ++super+s++ -> **Tint2 panels** -> **Choose Tint2...**
+## Seleccionando una ajuste alternativo
 
-Some alternative Tint2 configs are shipped with Mabox, and you can add your own configurations to `~/.config/tint2/`
-
-!!! info "How to add own tint2 config files to Mabox?"
-    If you find a nice tint2 config and want to add it to Mabox, just put it into `~/.config/tint2` directory. Remember to save tint2 configs with `.tint2rc` extension. Otherwise they will be not picked by **Tint2 Chooser**.
+El tema del panel Tint2 puede ser cambiado con el script utilitario de Mabox  **Elegir un panel**[^1] script:
 
 
-## Tint2conf - gui configuration tool
+**menu Ajustes** o bien con las teclas  ++super+s++ -> **Paneles Tint2 ** -> **Elegir un panel ...**
 
-TO DO
+Algunos ajustes alternativos de panel Tint2 estan preconfigurados ya enMabox, y usted puede agregar su(s) ajustes personalizados en  `~/.config/tint2/`
 
-[^1]: This tool was written by BunsenLabs and adapted for Mabox
+!!! info "¿Cómo agregar mis propios ajustes personalizados en un panel tint2 de Mabox?"
+    Si usted tiene sus propio ajuste personalizado en el panel y quiere agregarlo al sistema de  Mabox, sólo necesita ponerlo en este directorio `~/.config/tint2` . Recuerde guardar los cambios y ajustes de su  panel  tint2 personalizado  con  `.tint2rc` extension. De otro modo estos ajustes personales no serán recogidos por el  **Seleccionador de Tint2**.
+
+
+## Herramienta visual de ajustes para panel Tint2conf 
+
+Pendiente
+
+[^1]: Esta herramienta fue escrita por BunsenLabs y adaptada para el uso en Mabox

@@ -1,24 +1,24 @@
-![Settings menu](../img/settings_menu.jpg){ align=left }
-Mabox **Settings Menu** ++super+s++ is a menu which let you configure most important aspects in Mabox behaviour and look and feel.
+![Menu de ajustes](../img/settings_menu.jpg){ align=left }
+ **Menu de  ajustes**de Mabox ++super+s++ es un menu el cual permite que se configuren la mayoría de los aspectos importantes del comportamiento en Mabox ademas de la apariencia general.
 
 
-**Settings menu elements:**
+**Elementos del menu de ajustes:**
 
-- **Mabox Control Center** `mcc` - a simple GUI application to configure Mabox. Similarly to the Settings menu, it brings together all the configuration tools for Mabox in one place. Read more about [Mabox Control Center](../mcc/).
-- [**Wallpaper**](../wallpapers/) `nitrogen`
-- [**Look and Feel**](../lxappearance/) `lxappearance`
-- [**Menu/Sidepanels**](../menu-sidepanels/)
-- [**Tint2 panels**](../tint2/)
+- **Centro de Control Mabox** `mcc` - una aplicacion gráfica simple para configurar todo el sistema de Mabox desde una sola ventana. Parecido al Ajuste del menu, pero esta nueva contiene todos las herramientas de ajustes en un solo lugar. Lea más de esto en  [Mabox Centro de Control ](../mcc/).
+- [**Fondos de escritorios**](../wallpapers/) `nitrogen`
+- [**Apariencia**](../lxappearance/) `lxappearance`
+- [**Menu/Paneles laterales**](../menu-sidepanels/)
+- [**Panel de Tint2 **](../tint2/)
 - [**Conkies**](../conky/)
-- **Composer**
-- **Notifications**
-- **Screen resolution** `arandr` and `lxrandr`
-- **Theme manager** - save and restore desktop settings. Read more about [Theme Manager](../theme-manager/)
-- [**Preferred applications**](../../apps/preferred-apps/) - set default Web Browser, File Manager and Terminal Emulator
-- **Power Manager**
-- **Login Manager settings**
-- **Mouse and Keyboard** `lxinput`
-- **Openbox Configuration Manager** `obconf`
-- **Autostart** - see [Autostart](../autostart/)
-- **RC-configuration file** - edit main Openbox configuration file `~/.config/openbox/rc.xml` in Geany editor
-- **Reconfigure Openbox** `openbox --reconfigure` - reload updated Openbox configuration file (`rc.xml`), without need to log out.
+- **Compositor Picom**
+- **Notificaciones**
+- **Resolución de pantalla** `arandr` and `lxrandr`
+- **Gestor de Temas** - guarde y restaure los ajustes de su escritorio. Lea más acerca de esto en  [Gestor de temas](../theme-manager/)
+- [**Aplicaciones preferidas**](../../apps/preferred-apps/) - cambie el  navegador por defecto, el gestor de archivos y la Terminal
+- **Gestor de energía**
+- **Ajustes del gestor de sesiones**
+- **Ratón y teclado** `lxinput`
+- **Gestor de ajustes de Openbox** `obconf`
+- **Reinicio** - vea [Autostart](../autostart/)
+- **Archivo de  configuración global de Openbox** - edite el archivo principal de la configuración global de  Openbox en  `~/.config/openbox/rc.xml` in Geany editor
+- **Reconfigurar Openbox** `openbox --reconfigure` - recarga desde el archivo actualizado la configuracion inicial de Openbox  para Mabox (`rc.xml`), sin necesidad de salir y reiniciar.

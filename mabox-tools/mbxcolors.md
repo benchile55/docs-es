@@ -3,22 +3,22 @@
 </div>
 
 
-# mbxcolors - color picker and palette manager
+# mbxcolors - selector y gestor de paleta de colores
 
-This helper can be useful for creative users such as graphic designers, webdevelopers and programmers - or for people who want to customize the tint2 panel, change the colors in Conky or the Menu / Sidebars theme.
+Este asistente puede ser muy útil para los usuarios creativos en disño gráfico,  desarrolladores de web y programadores - o bien para personas que quieren personalizar el panel, cambiar los colores de la conky o el  tema del menu o de los paneles laterales.
 
-**mbxcolors** ++super+c++ is a colorpicker, copy/paste color code tool and palette manager.
+**mbxcolors** ++super+c++ es un selector de color, copia/pega el color de codigo y es un gestor de esto de la paleta de colores.
 
-Select color from menu to paste its color hexadecimal code in place where cursor is active (default action).
+Selecciona el color del menu para pegarlo con su codigo hexadecimal en el lugar en donde pones el cursos activo (acción por defecto).
 
-Features:
+Características:
 
-* pick color from screen (color preview is available in bottom left corner of screen)
-* Two actions:
-    - **paste** - (default) type color code in place of cursor
-    - **copy** - copy color code to clipboard
-* Three formats: **hexadecimal** (default), **RGB** and **RGBa**
-* create color palettes from picked colors
-* Two example palettes available by default: Tango and Selenized Black
-* **HTML colors**
-* type to search - usefull for searching HTML colors by name
+* Selecciona un color de la pantall (prevista del color esta disponible en la esquina inferior de la pantalla)
+* Dos acciones:
+    - **pegar** - (por defecto) escribe el codigo del color en donde pones el cursor
+    - **copiar** - copia el código del color al toma apuntes
+* Trés formatos: **hexadecimal** (default), **RGB** y **RGBa**
+* crea una paleta de colores con los colores seleccionados
+* Dos ejemplos de paletas disponibles por defecto: Tango y  Selenized Black
+* **Colores HTML**
+* escribe para buscar - útiilidad para la busqueda de colores de HTML  por su nombre

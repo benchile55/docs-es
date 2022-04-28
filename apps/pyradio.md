@@ -2,26 +2,26 @@
     <a href="../../img/PyRadio.jpg" title="PyRadio - command line internet radio player"><img src="../../img/PyRadio.jpg" alt="" /></a>
 </div>
 
-**PyRadio** ++super+r++ is command line internet radio player written in Python.
+**PyRadio** ++super+r++  es una línea de comando que es un reproductor de radioemisoras de internet escrito en Python.
 
 
-It uses MPV, Mplayer or VLC to play streams.
+Trabaja junto a MPV, Mplayer o bien  VLC para reproducir streams en línea.
 
-Mabox provides Pyradio with a predefined list of some interesting radio stations `~/.config/pyradio/stations.csv`
+Mabox ofrece este aplicacion Pyradio en la terminal con una lista predefinida de estaciones de radio online interesantes `~/.config/pyradio/stations.csv`
 
 [PyRadio on Github](https://github.com/coderholic/pyradio){target=blank}
 
-**Basic controls:**
+**Controles básicos:**
 
-|Keys	|Action|
+|Teclas	|Acciones|
 |--|--|
-|++up++ / ++down++ / ++j++ / ++k++ / ++page-up++ / ++page-down++ |	change station selection|
-|++enter++ / ++right++ / ++l++	|play selected station|
-|++minus++ / ++plus++ or ++comma++ / ++period++ |	change volume|
-|++v++	|save volume|
-|++m++	|mute|
-|++r++ |	random station|
-|++g++	|go to first station|
-|++3++ ++g++	|go to 3th station|
-|++space++ / ++left++ / ++h++ |	stop/start playing selected station|
-|++esc++ / ++q++	|quit|
+|++up++ / ++down++ / ++j++ / ++k++ / ++page-up++ / ++page-down++ |	cambia la selección de la estación|
+|++enter++ / ++right++ / ++l++	|reproduce la estación seleccionada|
+|++minus++ / ++plus++ or ++comma++ / ++period++ |	ajustar el volumen de audio|
+|++v++	|guarda el volumen establecido|
+|++m++	|silencia el audio|
+|++r++ |	elige una estacion al azar|
+|++g++	| va a la primera estación de la lista|
+|++3++ ++g++	|va  a la tercera estación de la lista|
+|++space++ / ++left++ / ++h++ |	parar/iniciar la reproducción de la estación seleccionada|
+|++esc++ / ++q++	|Salir|
